@@ -11,6 +11,7 @@ pipeline {
  stage('Test') {
             steps {
                 echo 'Testing automatically'
+                echo 'Checking for that Jenkins catched it or not'
             }
         }
  stage('Deploy') {
